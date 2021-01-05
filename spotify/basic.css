@@ -1,0 +1,78 @@
+.home-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* background-color: red; */
+
+}
+.home-main-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    
+
+}
+
+.home-main-section .lady-image{
+    background-image: url("./images/landing-page-girl.png");
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left; 
+}
+
+.home-main-section .call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
+@media(max-width: 900px){
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+    .home-main-section{
+        justify-content: center;
+    }
+}
+
+.home-page-circle-1{
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: rgb(199, 3, 216, 10%);
+    bottom: 5vw;
+    left: 3vw ;
+    z-index: -1;
+
+}
+.home-page-circle-2{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: rgb(5, 91, 55, 10%);
+    bottom: 5vw;
+    right: 5vw ;
+    z-index: -1;
+
+}
+.home-page-circle-3{
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: rgb(200, 124, 9, 10%);
+    top: 2vw;
+    right: 25vw ;
+    z-index: -1;
+
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: cornflowerblue;
+}
+
+.slideshow {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
